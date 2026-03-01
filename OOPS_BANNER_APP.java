@@ -9,13 +9,21 @@ public class OOPS_BANNER_APP {
      * @version 1.0
      */
     public static void main(String[] args) {
-        System.out.println(" " + "*****" + "  " + "*****" + "  " + "******" + "  " + "*****");
-        System.out.println("*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *");
-        System.out.println("*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *");
-        System.out.println("*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "******" + "  " + "*****");
-        System.out.println("*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *");
-        System.out.println("*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *" + "  " + "*" + "     *");
-        System.out.println(" " + "*****" + "  " + "*****" + "  " + "*" + "     " + "  " + "*****");
+    // use String.join to avoid many literal concatenations
+    System.out.println(String.join("",
+        " ", "*****", "  ", "*****", "  ", "******", "  ", "*****"));
+    System.out.println(String.join("",
+        "*", "     *", "  ", "*", "     *", "  ", "*", "     *", "  ", "*", "     *"));
+    System.out.println(String.join("",
+        "*", "     *", "  ", "*", "     *", "  ", "*", "     *", "  ", "*", "     *"));
+    System.out.println(String.join("",
+        "*", "     *", "  ", "*", "     *", "  ", "*", "******", "  ", "*****"));
+    System.out.println(String.join("",
+        "*", "     *", "  ", "*", "     *", "  ", "*", "     *", "  ", "*", "     *"));
+    System.out.println(String.join("",
+        "*", "     *", "  ", "*", "     *", "  ", "*", "     *", "  ", "*", "     *"));
+    System.out.println(String.join("",
+        " ", "*****", "  ", "*****", "  ", "*", "     ", "  ", "*****"));
     }
 }
 
