@@ -9,7 +9,7 @@ public class OOPS_BANNER_APP {
      * @version 1.0
      */
     public static void main(String[] args) {
-        String[] lines = new String[] {
+        String[] lines = {
             String.join("", " ", "*****", "  ", "*****", "  ", "******", "  ", "*****"),
             String.join("", "*", "     *", "  ", "*", "     *", "  ", "*", "     *", "  ", "*", "     *"),
             String.join("", "*", "     *", "  ", "*", "     *", "  ", "*", "     *", "  ", "*", "     *"),
